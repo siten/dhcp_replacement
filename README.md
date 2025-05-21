@@ -89,6 +89,7 @@ For ARM platforms, you may use targets like `armv7-unknown-linux-gnueabihf`:
 - Floating point support:
   1. Check `/proc/cpuinfo` for features like "vfp" or "neon"
   2. Use `readelf` to examine executable files on the target platform
+  3. Use `cat /etc/os-release |grep ARCH`
 
 ### Setting Up Cross-Compilation
 
